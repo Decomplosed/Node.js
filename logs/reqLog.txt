@@ -6,3 +6,7 @@
 20241112	13:51:56	ce39d0c7-bb62-44eb-b5ba-15e56a70ed72	GET	undefined	/
 20241112	13:51:56	d1882579-d898-4e2b-8540-48f306914cb9	GET	undefined	/css/style.css
 20241112	13:55:08	5401c1b5-1672-4932-8dd4-995544504a35	GET	undefined	/
+20241112	14:06:28	c04e787a-3045-4a9e-8e83-d2b2f1aa1d1c	GET	undefined	/subdir
+20241112	14:06:47	cf22d7d5-3864-4f33-b4cc-3a6c297c0201	GET	undefined	/subdir/test
+20241112	14:07:52	389dd11e-90b0-41c7-928f-2665bd48ae74	GET	undefined	/subdir/fasf
+20241112	14:07:52	24fe5aae-6be0-411a-adc8-04b8cb73b975	GET	undefined	/subdir/css/style.css
