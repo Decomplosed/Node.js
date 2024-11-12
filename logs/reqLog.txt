@@ -10,3 +10,5 @@
 20241112	14:06:47	cf22d7d5-3864-4f33-b4cc-3a6c297c0201	GET	undefined	/subdir/test
 20241112	14:07:52	389dd11e-90b0-41c7-928f-2665bd48ae74	GET	undefined	/subdir/fasf
 20241112	14:07:52	24fe5aae-6be0-411a-adc8-04b8cb73b975	GET	undefined	/subdir/css/style.css
+20241112	14:15:05	7d90dc42-635e-4d48-900b-74de5202f098	GET	undefined	/
+20241112	14:15:06	a2dc31a2-696d-4228-b3b8-e57eca1dc606	GET	undefined	/css/style.css
