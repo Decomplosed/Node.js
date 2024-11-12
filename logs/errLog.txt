@@ -1,0 +1,1 @@
+20241112	13:55:08	df80fc05-e99f-4a6a-8660-ae37488e1a40	Error Not allowed by CORS
