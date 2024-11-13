@@ -12,3 +12,6 @@
 20241112	14:07:52	24fe5aae-6be0-411a-adc8-04b8cb73b975	GET	undefined	/subdir/css/style.css
 20241112	14:15:05	7d90dc42-635e-4d48-900b-74de5202f098	GET	undefined	/
 20241112	14:15:06	a2dc31a2-696d-4228-b3b8-e57eca1dc606	GET	undefined	/css/style.css
+20241113	10:17:13	18cb35a9-5cd7-400e-b394-38f90efccf06	POST	undefined	/register
+20241113	10:17:47	376a0907-5053-4bbd-8815-412244200414	POST	undefined	/register
+20241113	10:18:14	d092f73f-6efb-4859-8fab-b6fd32673810	POST	undefined	/register
