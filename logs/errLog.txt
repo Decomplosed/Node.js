@@ -1,1 +1,4 @@
 20241112	13:55:08	df80fc05-e99f-4a6a-8660-ae37488e1a40	Error Not allowed by CORS
+20241113	17:15:48	e4f46dd8-93f1-4253-83a4-90ca05fa90f4	Error Cannot set headers after they are sent to the client
+20241113	17:21:53	fe2fbb43-b4ba-4964-968d-3c3d55b92965	Error Cannot set headers after they are sent to the client
+20241113	17:24:07	aa2e5b67-a112-46ab-8d39-e201e2b56ba1	SyntaxError Unexpected token f in JSON at position 4
