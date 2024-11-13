@@ -24,7 +24,7 @@ const handleLogout = async (req, res) => {
     return res.sendStatus(204);
   }
 
-  const otherUsers = usersDB.filter(
+  const otherUsers = usersDB.users.filter(
     (existingUser) => existingUser.refreshToken !== foundUser.refreshToken
   );
   const currentUser = { ...foundUser, refreshToken: "" };
