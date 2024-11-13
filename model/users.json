@@ -5,6 +5,7 @@
   },
   {
     "username": "Bart2",
-    "password": "$2b$10$7OQ9bzX2k7SwOgfYajnmh.kmcsSH6aUOHZF3pjjE/knjEYs1GeTSO"
+    "password": "$2b$10$7OQ9bzX2k7SwOgfYajnmh.kmcsSH6aUOHZF3pjjE/knjEYs1GeTSO",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJhcnQyIiwiaWF0IjoxNzMxNTAyNDg5LCJleHAiOjE3MzE1ODg4ODl9.XyCJCvtzlDyUCOewYxnkjO8Vj1XuI9pt_KRiGKPj7pA"
   }
 ]
