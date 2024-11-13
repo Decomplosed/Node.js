@@ -25,6 +25,7 @@ app.use("/", require("./routes/root"));
 app.use("/register", require("./routes/api/register"));
 app.use("/auth", require("./routes/api/auth"));
 app.use("/refresh", require("./routes/api/refresh"));
+app.use("/logout", require("./routes/api/logout"));
 
 app.use(verifyJWT);
 app.use("/employees", require("./routes/api/employees"));
