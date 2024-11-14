@@ -1,12 +1,12 @@
-const data = {
-  employees: require("../model/employees.json"),
-  setEmployees: function (data) {
-    this.employees = data;
-  },
-};
+const Employee = require("../model/Employee");
 
-const getAllEmployees = (req, res) => {
-  res.json(data.employees);
+const getAllEmployees = async (req, res) => {
+  const employees = await Employee.find();
+  if (!employees) {
+    return res.status(204).json({ message: "No employees found." });
+  }
+
+  res.json(employees);
 };
 
 const createNewEmployee = (req, res) => {
