@@ -49,20 +49,19 @@ const updateEmployee = async (req, res) => {
   res.json(updatedEmployee);
 };
 
-const deleteEmployee = (req, res) => {
-  const employee = data.employees.find(
-    (emp) => emp.id === parseInt(req.body.id)
-  );
+const deleteEmployee = async (req, res) => {
+  if (!req?.body?.id) {
+    return res.status(400).json({ message: "ID parameter is required" });
+  }
+
+  const employee = await Employee.findOne({ _id: req.body.id }).exec();
   if (!employee) {
     return res
-      .status(400)
-      .json({ message: `Employee ID ${req.body.id} not found` });
+      .status(204)
+      .json({ message: `No employee matches ID of ${req.body.id}.` });
   }
-  const fileteredArray = data.employees.filter(
-    (emp) => emp.id !== parseInt(req.body.id)
-  );
-  data.setEmployees([...fileteredArray]);
-  res.json(data.employees);
+  const deletedEmployee = await employee.deleteOne({ _id: req.body.id });
+  res.json(deletedEmployee);
 };
 
 const getEmployee = (req, res) => {
